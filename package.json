@@ -1,13 +1,17 @@
 {
   "name": "hue-relay",
   "version": "1.0.0",
-  "description": "",
+  "description": "Small server to take command from diyHue and relay them to Leviton Decora Wifi",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjaminp/hue-leviton-relay.git"
+  },
   "author": "Ben Poelstra",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
     "request": "^2.88.0",
